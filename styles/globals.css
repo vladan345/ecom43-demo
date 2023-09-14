@@ -18,10 +18,10 @@
   :root {
     --content-width: 1340px;
     --text: #232323;
-    --background: #f5f5f5;
+    --background: #f4d5ff;
     --radius: 6px;
 
-    --accent: #008cff;
+    --accent: #ff0099;
   }
 }
 * {
