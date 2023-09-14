@@ -1,0 +1,25 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 99999;
+  pointer-events: none;
+  overflow: hidden;
+}
+.container .cursor {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 10%;
+  border: var(--text) 2px solid;
+  transition: all 300ms ease-in-out;
+  background: transparent;
+}
+.cursor.pointer {
+  width: 20px;
+  height: 20px;
+  background: var(--text);
+}
